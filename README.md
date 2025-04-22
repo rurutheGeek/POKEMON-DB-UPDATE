@@ -61,15 +61,16 @@ remote_update.pyを使用するには、以下のような形式のcredentials.j
 ```json
 {
   "type": "service_account",
-  "project_id": "あなたのプロジェクトID",
-  "private_key_id": "プライベートキーID",
-  "private_key": "-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n",
-  "client_email": "サービスアカウント名@プロジェクトID.iam.gserviceaccount.com",
-  "client_id": "クライアントID",
+  "project_id": "your-project-id",
+  "private_key_id": "abcdef1234567890abcdef1234567890abcdef12",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nYOUR_PRIVATE_KEY_CONTENT\n-----END PRIVATE KEY-----\n",
+  "client_email": "service-account-name@your-project-id.iam.gserviceaccount.com",
+  "client_id": "123456789012345678901",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/..."
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-account-name%40your-project-id.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
 }
 ```
 
