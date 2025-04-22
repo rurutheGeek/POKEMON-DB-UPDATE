@@ -61,16 +61,15 @@ remote_update.pyを使用するには、以下のような形式のcredentials.j
 ```json
 {
   "type": "service_account",
-  "project_id": "pokemon-database-update",
-  "private_key_id": "6cf8d4f62c97211226f2f0c5dc2cb47dccf162bb",
-  "private_key": "-----BEGIN PRIVATE KEY-----\n[アカウントの秘密鍵]\n-----END PRIVATE KEY-----\n",
-  "client_email": "editor@pokemon-database-update.iam.gserviceaccount.com",
-  "client_id": "114905920832702300741",
+  "project_id": "あなたのプロジェクトID",
+  "private_key_id": "プライベートキーID",
+  "private_key": "-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n",
+  "client_email": "サービスアカウント名@プロジェクトID.iam.gserviceaccount.com",
+  "client_id": "クライアントID",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/editor%40pokemon-database-update.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/..."
 }
 ```
 
